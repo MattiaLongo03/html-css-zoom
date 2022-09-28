@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #4A4A4A;
+    border-radius: 5px;
+}
+
+nav span{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #4A4A4A;
+    border-radius: 5px;
+}
+
+main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.immagine{
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://picsum.photos/200);
+    gap: 1px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    height: 100px;
+}
+
+.icone, .icone-meeting{
+    display: flex;
+    align-items: center;
+}
+
+.icone p{
+    padding-top: 10px;
+    margin-right: 25px;
+}
+
+.icone div{
+    text-align: center;
+}
+
+.icone-meeting{
+    padding: 30px;
+    background-color: #4A4A4A;
+    color: red;
+}
